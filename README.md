@@ -43,10 +43,8 @@ Edit `config.jsonc` to change default settings:
 ## Output
 
 The program generates:
-- PDF visualization
 - JPG visualization
 - DOT file
-- Text file with all paths
 - Log file
 
 ## Command Line Arguments
