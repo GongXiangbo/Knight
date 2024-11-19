@@ -1,0 +1,7 @@
+services:
+  knight:
+    build: .
+    volumes:
+      - ./output:/app/output
+      - ./config.jsonc:/app/config.jsonc:ro
+    command: ["--start", "a1", "--end", "h8"]
