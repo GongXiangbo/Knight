@@ -1,8 +1,9 @@
+version: '3.8'
+
 services:
   knight:
     build: .
     volumes:
       - ./output:/app/output
       - ./config.jsonc:/app/config.jsonc:ro
-    stdin_open: true  # docker run -i
-    tty: true        # docker run -t
+    command: ["--start", "a1", "--end", "h8"]
