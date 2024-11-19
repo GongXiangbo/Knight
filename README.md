@@ -5,7 +5,7 @@ Finds all shortest paths for a knight on a chessboard between two positions.
 ## Features
 
 - Algebraic chess notation support
-- Multiple output formats (PDF, JPG, DOT)
+- Multiple output formats (JPG, DOT)
 - Configuration file support
 - Docker support
 - Logging
